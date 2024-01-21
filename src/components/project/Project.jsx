@@ -1,6 +1,7 @@
 import React from "react";
 import blog from "../../assets/blogPlatform.png";
 import voice from "../../assets/VoiceSelfie.png"
+import Note from "../../assets/NotesApp.png"
 const Project = () => {
   return (
     <>
@@ -13,13 +14,13 @@ const Project = () => {
         </h1>
         <p className="md:text-2xl text-lg text-center">
           Here are a few{" "}
-          <span className="text-contentHighlight font-carattere tracking-widest font-semibold md:text-3xl text-xl ">
+          <span className="text-contentHighlight font-carattere tracking-widest font-semibold md:text-3xl text-xl text-orange-400 ">
             Projects
           </span>{" "}
           worked on recently
         </p>
         <div className="flex flex-wrap justify-center gap-8 pt-8 ">
-          <div className="border-2 p-4   rounded-xl max-w-[450px] transition ease-in-out delay-150 hover:scale-110 hover:bg-bgDark  shadow-md duration-500 bg-orange-400">
+          <div className="border-2 p-4   rounded-xl max-w-[450px] transition ease-in-out delay-150 hover:scale-110 hover:bg-bgDark  shadow-md duration-500 bg-orange-500">
             <div className="flex flex-col gap-8">
               <div className="relative group flex flex-col items-center justify-center">
                 <a
@@ -81,6 +82,39 @@ const Project = () => {
                   </h1>
                   <p className="md:text-lg">
                   This project employs HTML, JavaScript, and Bootstrap to create a selfie-taking application. Users trigger the selfie capture by saying "take My Selfie." The interface is designed using Bootstrap for a responsive layout, and JavaScript handles voice recognition to make the process interactive and user-friendly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="border-2 p-4   rounded-xl max-w-[450px] transition ease-in-out delay-150 hover:scale-110 hover:bg-bgDark  shadow-md duration-500 bg-orange-400">
+            <div className="flex flex-col gap-8">
+              <div className="relative group flex flex-col items-center justify-center">
+                <a
+                  className="rounded-md overflow-hidden"
+                  href="https://vocal-cascaron-b6edb0.netlify.app/"
+                  target="_blank"
+                >
+                  <span
+                    className="lazy-load-image-background  lazy-load-image-loaded"
+                    style={{ color: "transparent", display: "inline-block" }}
+                  >
+                    <img
+                      className="w-full h-full object-cover aspect-[2/1]"
+                      alt=""
+                      src={Note}
+                    />
+                  </span>
+                </a>
+                <div className="opacity-0 group-hover:opacity-100 bg-gray-900 text-white text-sm rounded-md py-1 px-2 absolute font-sans tracking-normal">
+                https://vocal-cascaron-b6edb0.netlify.app/
+                </div>
+                <div className="flex flex-col gap-1 text-justify opacity-100 transform-none">
+                  <h1 className="md:text-3xl text-xl font-bold tracking-wider text-contentHighlight">
+                   Notes App
+                  </h1>
+                  <p className="md:text-lg">
+                  In the My Notes app, users have the ability to compose and save their own notes. These notes are then presented in a display format, allowing users to easily review and manage their written content. Furthermore, users are empowered with the option to delete any notes they no longer wish to retain, providing a flexible and user-friendly experience for organizing their information.
                   </p>
                 </div>
               </div>
