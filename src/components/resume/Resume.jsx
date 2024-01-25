@@ -11,7 +11,7 @@ const Resume = () => {
         </div>
         <div className="h-screen w-screen mt-16 md:w-1/2">
           <iframe
-            src="https://drive.google.com/file/d/1DVhwi7JGBU4prYJxzzbbApt1br1DvitT/preview"
+            src="https://drive.google.com/file/d/1HDdPb2IVrwFibW6R0hCMPvybVrLgCAPq/preview"
             allow="autoplay"
             title="Resume PDF"
             className="h-full w-full"
@@ -23,3 +23,4 @@ const Resume = () => {
 };
 
 export default Resume;
+
