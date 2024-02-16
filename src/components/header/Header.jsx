@@ -61,15 +61,7 @@ export default function Header() {
                   Project
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/about"
-                  className="block py-2 pr-4 pl-3 duration-200 text-gray-700 hover:bg-gray-50 border-b border-gray-100"
-                  onClick={toggleMobileMenu}
-                >
-                  About
-                </NavLink>
-              </li>
+            
               <li>
                 <NavLink
                   to="/resume"
